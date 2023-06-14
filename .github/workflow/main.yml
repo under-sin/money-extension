@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: action/checkout@main
+      - uses: actions/checkout@main
 
       - name: Set up .NET Core
-        uses: action/setup-dotnet@v3
+        uses: actions/setup-dotnet@v3
         with:
           dotnet-version: "7.0.x"
 
