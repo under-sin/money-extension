@@ -13,6 +13,6 @@ public static class Money
             return 0;
 
         int.TryParse(text, out var result);
-        return result; 
+        return result;
     }
 }
