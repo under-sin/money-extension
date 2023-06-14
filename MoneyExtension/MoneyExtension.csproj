@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     
     <!-- Configurações necessárias para criar um nuget -->
-    <PackageId>MoneyExtensions-cc34e4fb-797b-4f08-869c-d3f122707cc7</PackageId>
+    <PackageId>UnderMoneyExtensions-cc34e4fb-797b-4f08-869c-d3f122707cc7</PackageId>
     <Version>1.0.0</Version>
     <License>MIT</License>
     <Authors>Anderson</Authors>
