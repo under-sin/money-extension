@@ -4,6 +4,26 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    
+    <!-- Configurações necessárias para criar um nuget -->
+    <PackageId>UnderMoneyExtensions</PackageId>
+    <Version>1.0.0</Version>
+    <License>MIT</License>
+    <Authors>Anderson</Authors>
+    <Company></Company>
+    <PackageDescription>Extension to convert decimal in int</PackageDescription>
+    <Description>Extension to convert decimal in int</Description>
+    <RepositoryUrl>https://github.com/under-sin/money-extension</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/under-sin/money-extension</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PacakgeTags>Money;int;decimal;converter</PacakgeTags>
+    <Title>UnderMoneyExtensions</Title>
+    <Summary>Extension to convert decimal in int</Summary>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../Media/icon.png" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
 </Project>
